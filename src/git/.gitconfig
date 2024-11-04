@@ -1,0 +1,44 @@
+[user]
+	name = yeasin2002
+	email = mdkawsarislam2002@gmail.com
+
+[credential "https://github.com"]
+	helper = !/home/yeasin/.local/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = !/home/yeasin/.local/bin/gh auth git-credential
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+	ff = only
+
+	
+[core]
+	editor = code --wait
+	eol = lf
+	autocrlf = false
+	whitespace = cr-at-eol
+	symlinks = true
+
+[init]
+	defaultBranch = main
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+
+[push]
+	autoSetupRemote = true
+
+[alias]
+	logs = log --color --graph --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset %s %Cgreen(%cr) %C(yellow)%d%Creset' --abbrev-commit
+	logs-long = log-short --stat
+	s = status -sb
+	b = branch
+	a = add
+	aa = add --all
