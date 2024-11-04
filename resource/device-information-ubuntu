@@ -1,18 +1,26 @@
-[0m[1;31m                          ./+o+-      [0m[1;31m al-imam[0m[1m@[0m[0m[1;31mubuntu-hp[0m
-[0m[1;37m                  yyyyy- [0m[1;31m-yyyyyy+     [0m[1;31m OS:[0m Ubuntu 22.04 jammy[0m
-[0m[1;37m               [0m[1;37m://+//////[0m[1;31m-yyyyyyo     [0m[1;31m Kernel:[0m x86_64 Linux 6.2.0-35-generic[0m
-[0m[1;33m           .++ [0m[1;37m.:/++++++/-[0m[1;31m.+sss/`     [0m[1;31m Uptime:[0m 51m[0m
-[0m[1;33m         .:++o:  [0m[1;37m/++++++++/:--:/-     [0m[1;31m Packages:[0m 1633[0m
-[0m[1;33m        o:+o+:++.[0m[1;37m`..```.-/oo+++++/    [0m[1;31m Shell:[0m fish 3.6.1[0m
-[0m[1;33m       .:+o:+o/.[0m[1;37m          `+sssoo+/   [0m[1;31m Resolution:[0m 1366x768[0m
-[0m[1;37m  .++/+:[0m[1;33m+oo+o:`[0m[1;37m             /sssooo.  [0m[1;31m DE:[0m GNOME 41.7[0m
-[0m[1;37m /+++//+:[0m[1;33m`oo+o[0m[1;37m               /::--:.  [0m[1;31m WM:[0m Mutter[0m
-[0m[1;37m \+/+o+++[0m[1;33m`o++o[0m[1;31m               ++////.  [0m[1;31m WM Theme:[0m Adwaita[0m
-[0m[1;37m  .++.o+[0m[1;33m++oo+:`[0m[1;31m             /dddhhh.  [0m[1;31m GTK Theme:[0m Yaru-blue-dark [GTK2/3][0m
-[0m[1;33m       .+.o+oo:.[0m[1;31m          `oddhhhh+   [0m[1;31m Icon Theme:[0m Yaru-blue[0m
-[0m[1;33m        \+.++o+o`[0m[1;31m`-````.:ohdhhhhh+    [0m[1;31m Font:[0m Ubuntu 11[0m
-[0m[1;33m         `:o+++ [0m[1;31m`ohhhhhhhhyo++os:     [0m[1;31m Disk:[0m 18G / 234G (8%)[0m
-[0m[1;33m           .o:[0m[1;31m`.syhhhhhhh/[0m[1;33m.oo++o`     [0m[1;31m CPU:[0m Intel Core i3-5005U @ 4x 1.9GHz [53.0°C][0m
-[0m[1;31m               /osyyyyyyo[0m[1;33m++ooo+++/    [0m[1;31m GPU:[0m Intel Corporation HD Graphics 5500 (rev 09)[0m
-[0m[1;31m                   ````` [0m[1;33m+oo+++o\:    [0m[1;31m RAM:[0m 2678MiB / 3822MiB[0m
-[0m[1;33m                          `oo++.      [0m
+             ...-:::::-...                  yeasin@yeasin-desktop
+          .-MMMMMMMMMMMMMMM-.               ---------------------
+      .-MMMM`..-:::::::-..`MMMM-.           OS: Linux Mint virginia 21.3 x86_64
+    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.         Kernel: Linux 5.15.0-124-generic
+   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-        Uptime: 11 hours, 44 mins
+ `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`     Packages: 2847 (dpkg), 1 (flatpak)
+ :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:     Shell: bash 5.1.16
+.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.    Display (VGA-1): 1024x768 @ 60 Hz [External]
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:    DE: Cinnamon 6.0.4
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:    WM: Muffin (X11)
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:    WM Theme: WhiteSur-Dark (Mint-Y)
+.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.    Theme: gtk2 [Qt], WhiteSur-Dark [GTK2/3/4]
+ :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:     Icons: Mint-Y-Sand [Qt], WhiteSur-dark [GTK2/3/4]
+  :MMM:MMM:`                `:MMM:MMM:      Font: qt5ct [Qt], Manjari (10pt, Bold) [GTK2/3/4]
+   .MMM.MMMM:--------------:MMMM.MMM.       Cursor: Bibata-Modern-Ice (24px)
+     '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-'        Terminal: warp v0.2024.10.15.08.02.stable_03
+       '.-MMMM``--:::::--``MMMM-.'          Terminal Font: Hack (10.0pt)
+            '-MMMMMMMMMMMMM-'               CPU: Intel(R) Core(TM) i5-3470 (4) @ 3.20 GHz
+               ``-:::::-``                  GPU: Intel Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller @ 1.10 GHz [Integrated]
+                                            Memory: 12.03 GiB / 15.51 GiB (78%)
+                                            Swap: 1.47 GiB / 2.00 GiB (73%)
+                                            Disk (/): 48.92 GiB / 101.46 GiB (48%) - zfs
+                                            Disk (/media/yeasin/Media1): 224.21 GiB / 245.02 GiB (92%) - fuseblk
+                                            Disk (/media/yeasin/Programming): 213.93 GiB / 220.74 GiB (97%) - fuseblk
+                                            Local IP (enp2s0): 192.168.110.137/24
+                                            Locale: en_US.UTF-8
