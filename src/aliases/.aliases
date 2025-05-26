@@ -1,0 +1,62 @@
+# git 
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gca='git commit --amend --no-edit'
+alias gp='git push'
+alias gpo='git push origin'
+alias gpl='git pull'
+alias gl='git log --oneline --graph --decorate'
+alias gco='git checkout'
+alias gb='git branch'
+alias gcb='git checkout -b'
+alias gd='git diff'
+alias grs='git restore .'
+alias grh='git reset --hard'
+
+
+# node 
+alias ni='npm install'
+alias nid='npm install --save-dev'
+alias nr='npm run'
+alias nrb='npm run build'
+alias nrs='npm run start'
+alias nt='npm test'
+alias nu='npx update-browserslist-db@latest && npm update'
+alias nc='npm cache clean --force'
+alias npv='npm -v'
+alias ndv='node -v'
+
+# bun 
+alias bi='bun install'           
+alias ba='bun add' 
+alias bad='bun add -d'           
+alias br='bun run'                
+alias bs='bun start'              
+alias bb='bun build'              
+alias bx='bunx'                   
+alias bt='bun test'              
+alias bu='bun upgrade'           
+alias bcn='bun create next-app'  
+alias bl='bun lint'              
+
+
+
+# docker 
+alias dcu='docker compose up -d'
+alias dcd='docker compose down'
+alias dcb='docker compose build'
+alias dcl='docker compose logs -f'
+alias dps='docker ps'
+alias dimg='docker images'
+alias drm='docker rm $(docker ps -aq)'
+alias drmi='docker rmi $(docker images -q)'
+
+
+# utils - common 
+alias serve='npx serve'
+alias lint='npm run lint'
+alias fmt='npm run format'
+
+
+
