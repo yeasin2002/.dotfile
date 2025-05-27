@@ -59,4 +59,65 @@ alias lint='npm run lint'
 alias fmt='npm run format'
 
 
+## linux 
+# System info
+alias update='sudo dnf update && sudo dnf upgrade'
+alias up='update'
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown now'
+alias clr='clear'
+
+# File ops
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias rmf='rm -rf'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias c='clear'
+alias mkdir='mkdir -pv'
+
+# Search
+alias f='find . -name'
+alias grep='grep --color=auto'
+alias psg='ps aux | grep -i'
+
+# Disk & memory
+alias df='df -h'
+alias du='du -sh'
+alias free='free -h'
+alias meminfo='cat /proc/meminfo'
+alias cpuinfo='lscpu'
+
+# Permissions
+alias chx='chmod +x'
+alias own='sudo chown -R $USER:$USER'
+
+# Archives
+alias untar='tar -xvf'
+alias targz='tar -xzvf'
+alias targzc='tar -czvf'
+
+# Networking
+alias ip='ip a'
+alias ports='sudo lsof -i -P -n'
+alias pingg='ping google.com'
+alias myip='curl ifconfig.me'
+
+# Services
+alias sys='systemctl'
+alias syss='sudo systemctl status'
+alias sysr='sudo systemctl restart'
+alias syse='sudo systemctl enable'
+alias sysd='sudo systemctl disable'
+
+# Journal logs
+alias jctl='journalctl -xe'
+alias jctlf='journalctl -f'
+
+# DNF
+alias search='dnf search'
+alias install='sudo dnf install'
+alias remove='sudo dnf remove'
+
 
